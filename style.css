@@ -54,6 +54,12 @@ header{
     transform: scale(105%);
 }
 
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 main{
     display: flex;
     justify-content: space-evenly;
@@ -98,7 +104,9 @@ main{
 }
 
 .main-img{
-    margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 2%;
 }
 
@@ -352,6 +360,8 @@ footer{
 .footer-img{
     display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .redes{
@@ -520,6 +530,7 @@ footer{
     .footer-img{
         margin: 0 auto;
         align-items: center;
+        justify-content: center;
     }
 
     .redes-img{
